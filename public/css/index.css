@@ -1,0 +1,42 @@
+body {
+  font-family: Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.title {
+  display: inline-block;
+  margin: 0 0 10px 10px;
+  font-size: 0;
+  vertical-align: top;
+  position: relative;
+  padding-bottom: 32px;
+}
+.title .title-image {
+  position: relative;
+  z-index: 10;
+  width: 166px;
+  height: 236px;
+  background-color: #eee;
+}
+.title .action {
+  background: #999;
+  color: #fff;
+  text-align: center;
+  line-height: 2;
+  font-size: 16px;
+  position: absolute;
+  bottom: 2em;
+  width: 100%;
+  z-index: 5;
+  left: 0;
+  cursor: pointer;
+  -webkit-transition: bottom 0.2s linear;
+  -moz-transition: bottom 0.2s linear;
+  -o-transition: bottom 0.2s linear;
+  -ms-transition: bottom 0.2s linear;
+  transition: bottom 0.2s linear;
+}
+.title .action:hover {
+  background: #adadad;
+}
+.title:hover .action {
+  bottom: 0;
+}

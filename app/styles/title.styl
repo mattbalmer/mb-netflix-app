@@ -1,0 +1,36 @@
+$option-height = 16px
+
+.title
+    display inline-block
+    margin 0 0 10px 10px
+    font-size 0
+    vertical-align top
+    position relative
+    padding-bottom $option-height * 2
+
+    .title-image
+        position relative
+        z-index 10
+        width 166px
+        height 236px
+        background-color #eee
+
+    .action
+        background #999
+        color #fff
+        text-align center
+        line-height 2
+        font-size $option-height
+        position absolute
+        bottom 2em
+        width 100%
+        z-index 5
+        left 0
+        cursor pointer
+        transition bottom .2s linear
+
+        &:hover
+            background lighten(#999, 20%)
+
+    &:hover .action
+        bottom 0

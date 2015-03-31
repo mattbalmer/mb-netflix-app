@@ -1,0 +1,22 @@
+{
+    "name": "mb-netflix-app",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "~4.12.3"
+    },
+    "devDependencies": {
+        "gulp-rename": "~1.2.0",
+        "gulp-sourcemaps": "~1.5.1",
+        "gulp-concat": "~2.5.2",
+        "through2": "~0.6.3",
+        "nib": "~1.1.0",
+        "gulp": "~3.8.11",
+        "browserify": "~9.0.3",
+        "babelify": "~5.0.4",
+        "react": "~0.13.1",
+        "gulp-stylus": "~2.0.1"
+    }
+}
